@@ -3,7 +3,7 @@ App.ApplicationPort1=27016
 App.ApplicationPort2=2302
 App.ApplicationReadyMode=Immediate
 App.BaseDirectory=./arma-2/33935/
-App.CommandLineArgs=+ip {{$ApplicationIPBinding}} +port {{$ApplicationPort1}} +queryport {{$ApplicationPort2}} +rconpassword "{{$RemoteAdminPassword}}" +maxusers {{$MaxUsers}} {{$FormattedArgs}}
+App.CommandLineArgs=-port={{$ApplicationPort2}} -config=server.cfg -mod=@Origins -profiles=profiles -name=Server
 App.CommandLineParameterDelimiter= 
 App.CommandLineParameterFormat=-{0} "{1}"
 App.DisplayName=Arma 2
