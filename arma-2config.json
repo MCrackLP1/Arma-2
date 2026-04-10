@@ -1,1 +1,11 @@
-[]
+{
+    "ApplicationName": "Arma 2 Origins",
+    "Author": "Mark Tietz",
+    "Description": "Arma 2 Operation Arrowhead Server mit DayZ Origins Mod.",
+    "SupportedOS": [
+        "Windows",
+        "Linux"
+    ],
+    "Module": "GenericModule",
+    "BaseConfiguration": "arma-2.kvp"
+}
